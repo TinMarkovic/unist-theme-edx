@@ -1,0 +1,16 @@
+// Theming overrides for simple custom theme
+@import 'overrides';
+
+// import the rest of the application
+@import 'lms/static/sass/lms-footer-edx';
+
+footer#footer-edx-v3 {
+  background: #165281;
+	.site-nav a, 
+	.legal-notices a{
+	  color: white;
+		&:hover {
+			color: #cccccc;
+		}
+	}
+}

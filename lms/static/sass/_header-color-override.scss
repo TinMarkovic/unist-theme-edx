@@ -1,0 +1,24 @@
+.primary>a:hover, 
+.primary>a:focus, 
+.primary>a:active {
+	background: #296594;
+}
+
+.user .dropdown {
+	background: #296594;
+	color: white;
+}
+
+.user .user-link .label-username{
+	color: white;
+}
+
+.nav-global li a,
+.nav-courseware li a,
+.nav-global div a,
+.nav-courseware div a {
+	color: white;
+	&:hover {
+		color: #cccccc;
+	}
+}

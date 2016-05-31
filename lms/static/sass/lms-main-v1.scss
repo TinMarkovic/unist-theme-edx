@@ -1,0 +1,22 @@
+// Theming overrides for simple custom theme
+@import 'overrides';
+
+// import the rest of the application
+@import 'lms/static/sass/lms-main-v1';
+
+
+.header-global-new { 
+	@import 'header-color-override';
+	.wrapper-header {
+		margin: 0px auto 30px;
+	}
+	.nav-courseware,
+	.nav-global {
+		margin-top: 20px;
+	}
+}
+.home>header {
+	background-image: url('../images/background-main.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+}
