@@ -1,0 +1,29 @@
+// Theming overrides for simple custom theme
+@import 'overrides';
+
+// import the rest of the application
+@import 'cms/static/sass/studio-main-v1';
+
+.wrapper-header {
+	background: #296594;
+	.wrapper-r,
+	.wrapper-l {
+		background: #296594;
+	}
+	nav .nav-item a {
+		color: white;
+	}
+}
+
+.wrapper-footer {
+	background: #296594;
+    margin: 0 0 0 0;
+
+    footer.primary {
+    	color: white;
+    	a {
+    		color: white;
+    		text-decoration: underline;
+    	}
+    }
+}
